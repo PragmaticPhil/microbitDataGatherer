@@ -8,10 +8,17 @@ It includes a series of microPython files that demonstrate the following:
 <b> 3 = Transferring a large amount of data from 1 micro:bit, via an XinaBox micro:bit gateway, to an IoT platform</b></br>
 
 
-<h1>Applying the No-sleep Pragmatic Data Collection technique</h1>
-As I point out in my blog, the naming of this is very tongue-in-cheek.  I am sure the technique will have been used many times before I came along.  I couldn't find a mention of it though, so for now I claim naming rights!
+<h3>Applying the No-sleep Pragmatic Data Collection technique</h3>
+As I point out in my blog, the naming of this is very tongue-in-cheek and I am sure the technique will have been used many times before I came along.</br>  
+I couldn't find a mention of it though, so for now I claim naming rights!</br>
 
-
+<li>
+The technique is described in detail on the blog - I won't repeat here.</br>
+Flash the data_MAcollector.py file onto a micro:bit.
+Push the A-button to initiate the data reading process.
+After the countdown finishes the micro:bit will read accelerometer data for about 2.5 seconds.  A single dot is shown on screen during this period.
+When the readings have completed you can press the B-button to see how many times we sampled the accelerometer during every data collection cycle.
+</li>
 
 Collect up to 150 data points on 1 micro:bit, then later transmit that data via radio to a 'micro:bit gateway'- a micro:bit with the XinaBox IoT Starter (Wi-fi) attached - which transmits it to an MQTT IoT platform - Ubidots in the code.
 
