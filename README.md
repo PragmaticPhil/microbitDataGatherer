@@ -12,13 +12,14 @@ It includes a series of microPython files that demonstrate the following:
 As I point out in my blog, the naming of this is very tongue-in-cheek and I am sure the technique will have been used many times before I came along.</br>  
 I couldn't find a mention of it though, so for now I claim naming rights!</br>
 
-<li>
-The technique is described in detail on the blog - I won't repeat here.</br>
-Flash the data_MAcollector.py file onto a micro:bit.
-Push the A-button to initiate the data reading process.
-After the countdown finishes the micro:bit will read accelerometer data for about 2.5 seconds.  A single dot is shown on screen during this period.
-When the readings have completed you can press the B-button to see how many times we sampled the accelerometer during every data collection cycle.
-</li>
+
+The technique is described in detail on the blog - I won't repeat here.  To check it operating for yourself follow the steps below: </br>
+<ul>
+<li>Flash the <b>data_MAcollector.py</b> file onto a micro:bit.</li>
+<li>Push the A-button to initiate the data reading process.</li>
+<li>After the countdown finishes the micro:bit will read accelerometer data for about 2.5 seconds.  A single dot is shown on screen during this period.</li>
+<li>When the readings have completed you can press the B-button to see how many times we sampled the accelerometer during every data collection cycle.</li>
+</ul>
 
 Collect up to 150 data points on 1 micro:bit, then later transmit that data via radio to a 'micro:bit gateway'- a micro:bit with the XinaBox IoT Starter (Wi-fi) attached - which transmits it to an MQTT IoT platform - Ubidots in the code.
 
