@@ -1,4 +1,14 @@
 # microbitDataGatherer
+This repository is here to support my blog: 
+
+It includes a series of microPython files that demonstrate the following:
+
+<b> 1 = Applying the No-sleep Pragmatic Data Collection technique to collect data on your micro:bit</b>
+<b> 2 = Using pattern recognition to identify interesting parts of the data</b>
+<b> 3 = Transferring a large amount of data from 1 micro:bit, via an XinaBox micro:bit gateway, to an IoT platform</b>
+
+  
+
 Collect up to 150 data points on 1 micro:bit, then later transmit that data via radio to a 'micro:bit gateway'- a micro:bit with the XinaBox IoT Starter (Wi-fi) attached - which transmits it to an MQTT IoT platform - Ubidots in the code.
 
 <b>Whats the Objective?</b></br>
