@@ -1,5 +1,5 @@
 # microbitDataGatherer
-This repository is here to support my blog: 
+This repository is here to support my blog:  http://pragmaticPhil.co.uk/2019/03/16/data-capturing-on-the-microbit/
 
 It includes a series of microPython files that demonstrate the following:
 
