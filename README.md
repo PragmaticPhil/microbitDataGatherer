@@ -17,13 +17,13 @@ For example:</br>
 
 This repo includes 2 files that demonstrate the following techniques:
 
-<b> 1 = Applying the No-sleep Pragmatic Data Collection technique to collect data on your micro:bit</b></br>
+<b> 1 = Applying the No-sleep Pragmatic Data Collection pattern to collect data on your micro:bit</b></br>
 <b> 2 = Using pattern recognition to identify interesting parts of the data</b></br>
 
 My use case also requires me o transferg a large amount of data from 1 micro:bit, via an XinaBox micro:bit gateway, to an IoT platform.  I will be writing a Hackster how-to that covers this</b></br>
 
 
-<h3>Applying the No-sleep Pragmatic Data Collection technique</h3>
+<h3>Applying the No-sleep Pragmatic Data Collection pattern</h3>
 As I point out in my blog, the naming of this is very tongue-in-cheek and I am sure the technique will have been used many times before I came along.  I couldn't find a mention of it though, so for now I claim naming rights!</br>
 
 The technique is described in detail on the blog - I won't repeat here.  To check it operating for yourself follow the steps below: </br>
