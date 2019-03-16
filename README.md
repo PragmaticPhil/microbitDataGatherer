@@ -5,15 +5,17 @@ Collect up to 150 data points on 1 micro:bit, then later transmit that data via 
 
 <b>Whats the Objective?</b></br>
 <ul>  
-<li>... imagine a situation where the need arises to collect a large number of data points on a micro:bit</li>
-<li>... but the circumstances preclude extracting that data in real time.</li>
+<li>imagine a situation where the need arises to collect a large number of data points on a micro:bit</li>
+<li>but the circumstances preclude extracting that data in real time.</li>
 </ul>
 For example:</br>
-... you have a wearable device (say a heart monitor) on you that takes readings you want to later extract.
-... you are taking readings on a moving object</br>
-... you want to leave a sensor array somewhere in nature to take intermittent readings overnight, which you will collect in the morning</br>
+<ul>
+<li>you have a wearable device (say a heart monitor) on you that takes readings you want to later extract.</li>
+<li>you are taking readings on a moving object</li>
+<li>you want to leave a sensor array somewhere in nature to take intermittent readings overnight, which you will collect in the morning</li>
+</ul>
 
-This repo includes 2 files that demonstrate the following:
+This repo includes 2 files that demonstrate the following techniques:
 
 <b> 1 = Applying the No-sleep Pragmatic Data Collection technique to collect data on your micro:bit</b></br>
 <b> 2 = Using pattern recognition to identify interesting parts of the data</b></br>
